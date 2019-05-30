@@ -1,2 +1,50 @@
-<h1>CaaSCasE</h1>
-<p>Landingpage to explain what caas is and what you can do on this website.</p>
+<h1 class="title">CaaSCasE</h1>
+<h4 class="subtitle has-text-grey-light">The Comic Sans of Case Types</h4>
+
+<p>CaaSCasE or 'Case as a Service Case' is new Case type designed to be a casual/fun case type.</p>
+<p>The rules are pretty simple. Both the first and last letter of a word are capitalized.</p>
+<button [routerLink]="caseTypesRoute" class="button is-link">
+  Learn more about Case Types &nbsp;<i class="fas fa-arrow-right"></i>
+</button>
+
+<hr>
+
+<h2>Tools</h2>
+<div class="tile is-ancestor">
+  <div class="tile is-parent">
+    <article class="tile is-child notification is-light">
+      <h4 class="title">Case Type Checker</h4>
+      <p>Detects and tells you the type of case that you are using.</p>
+      <div class="has-text-centered">
+        <button class="button is-link" [routerLink]="checkerRoute">
+          Case Type Checker &nbsp;<i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </article>
+  </div>
+
+  <div class="tile is-parent">
+    <article class="tile is-child notification is-light">
+      <h4 class="title">Case Type Validator</h4>
+      <p>Reads your text and tells you if your case type is valid!</p>
+      <div class="has-text-centered">
+        <button class="button is-link" [routerLink]="validatorRoute">
+          Case Type Validator &nbsp;<i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </article>
+  </div>
+
+  <div class="tile is-parent">
+    <article class="tile is-child notification is-light">
+      <h4 class="title">Case Type Converter</h4>
+      <p>Converts your text to any case type you want!</p>
+      <div class="has-text-centered">
+        <button class="button is-link" [routerLink]="converterRoute">
+          Case Type Converter &nbsp;<i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </article>
+  </div>
+</div>
+
