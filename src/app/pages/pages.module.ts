@@ -9,7 +9,6 @@ import { ContactComponent } from './contact/contact.component';
 import { ConverterComponent } from './converter/converter.component';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { ToolsComponent } from './tools/tools.component';
 import { ValidatorComponent } from './validator/validator.component';
 
 const PAGES = [
@@ -20,7 +19,6 @@ const PAGES = [
   ConverterComponent,
   HomeComponent,
   NotFoundComponent,
-  ToolsComponent,
   ValidatorComponent
 ];
 

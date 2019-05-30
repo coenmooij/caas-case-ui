@@ -8,7 +8,6 @@ import { ContactComponent } from '../pages/contact/contact.component';
 import { ConverterComponent } from '../pages/converter/converter.component';
 import { HomeComponent } from '../pages/home/home.component';
 import { NotFoundComponent } from '../pages/not-found/not-found.component';
-import { ToolsComponent } from '../pages/tools/tools.component';
 import { ValidatorComponent } from '../pages/validator/validator.component';
 import { Page } from './page.enum';
 
@@ -20,7 +19,6 @@ const routes: Routes = [
       { path: Page.CHECKER, component: CheckerComponent },
       { path: Page.VALIDATOR, component: ValidatorComponent },
       { path: Page.CONVERTER, component: ConverterComponent },
-      { path: Page.TOOLS, component: ToolsComponent },
       { path: Page.ABOUT, component: AboutComponent },
       { path: Page.CONTACT, component: ContactComponent },
       { path: '**', component: NotFoundComponent }
